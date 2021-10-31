@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.navbar{
+    background-color: #060b26;
+    height: 80px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.menu-bars{
+    margin-left: 2rem;
+    font-size: 2rem;
+    background-color: none;
+    color:cornsilk ;
+}
+
+.nav-menu{
+    background-color: #060b26;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 850ms;
+}
+
+.nav-menu.active{
+    left: 0;
+    transition: 350ms;
+}
+
+.nav-text{
+   display: flex;
+   justify-content:flex-start;
+   align-items: center;
+   padding: 8px 0px 8px 16px;
+   list-style: none;
+   height: 60px;
+}
+
+.nav-text a{
+    text-decoration: none;
+    color: cornsilk;
+    font-size: 18px;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
+}
+
+.nav-text a:hover{
+background-color: cyan;
+}
+
+.nav-menu-items{
+    width: 100%;
+}
+
+.navbar-toggle{
+    background-color: #060b26;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-self:flex-start;
+    align-items: center;
+}
+
+span{
+    margin-left: 16px;
+}
+
+.home, .report, .product{
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
